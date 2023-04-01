@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="クマトシにある水族館です。さまざまな海のいきものがいます。イベントもたくさん開催中。">
+    <title>トップページ|くまとし水族館</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="shortcut icon" href="favicon.png" >
+    <link rel="apple-touch-icon" href="touch-icon.png">
+</head>
+<body>
+<header id="header" class="DownMove">
+    <!-- <a href="サイトのURLを完成後入れる"></a> -->
+    
+    
+    <h1><a href="index.html"><img src="img/header-logo.svg" alt="Kumatoshi AQUARIUM"></a></h1>
+
+
+
+
+   
+<!-- <li><a href="#"><img src="img/ticket.svg" alt=""><span>チケット</span></a></li> -->
+    
+
+    <nav id="g-nav"> 
+        <ul>
+            <li><a class="one" href="ticket/">料金・チケット</a></li>
+                <li><a href="animals/">生き物たち</a></li>
+                <li><a href="schedule/">タイム<br>スケジュール</a></li>
+                <li><a href="floor/">施設案内</a></li>
+               <!--  <li><a href="#">料金案内</a></li> -->
+            <li><a href="access/">アクセス</a></li>
+            <li class="has-child"><a href="#">Language</a><!--子要素を持つ li にはhas-childというクラス名をつける-->
+                <ul>
+                <li><a href="#">Japanese</a></li>
+                <li><a href="#">English</a></li>
+
+                
+
+                  </ul>
+               </li>
+        </ul>
+            
+    </nav> 
+        
+
+        <nav id="g-nav-sp"> 
+            <ul>
+                <li><a href="ticket/">料金・チケット</a></li>
+                <li><a href="animals/">生き物たち</a></li>
+                <li><a href="schedule/">タイム<br>スケジュール</a></li>
+                <li><a href="floor/">施設案内</a></li>
+                <li><a href="access/">アクセス</a></li>
+                 <!-- <li><a href="#">Language</a></li> -->
+                
+            </ul>
+            
+
+            <ul class="accordion-area">
+
+                <li><!--li ~ /li までが一つのアコーディオン-->
+                <section>
+                <h3 class="title">Language</h3>
+                <div class="box">
+                        <a href="example.html">
+                        <li>Japanese</li></a>
+                        
+                        <a href="example.html">
+                        <li>English</li></a>   
+                        
+                        
+                </div>
+                </section>
+                </li>
+
+        </nav> 
+
+
+
+
+
+    <p id="ham-btn"><span></span></p>
+</header>
+
+<div class="main-visual">
+    <ul class="bxslider">
+        <li><img src="img/main1.jpg" alt="水族館の生き物-魚"></li>
+        <li><img src="img/main2.jpg" alt="水族館の生き物-マンタ"></li>
+        <li><img src="img/main3.jpg" alt="水族館の生き物-イルカ"></li>
+        <li><img src="img/main4.jpg" alt="水族館の生き物-ペンギン"></li>
+        <li><img src="img/main5.jpg" alt="水族館の生き物-カワウソ"></li>
+    </ul>
+
+
+</div> <!-- /.main-visual -->  
+
+
+
+<!-- <nav id="g-nav">
+<ul>
+    <li><a href="#">生き物たち</a></li>
+    <li><a href="#">プログラム・ショー</a></li>
+    <li><a href="#">施設案内</a></li>
+    <li><a href="#">料金案内</a></li>
+    <li><a href="#">アクセス</a></li>
+</ul>
+
+</nav> --> <!-- /.g-nav -->
+<div class="bac">
+<div class="opening-closing">
+<p class="opcl">本日の営業時間</p>
+<p class="time">09:00~17:00</p>
+<pv class="note">※最終入場 16:30</pv>
+
+</div> <!-- /.opening-closing -->
+</div>
+
+
+<div id="news">
+<h2>ニュース</h2> 
+
+
+<div class="news-box">
+
+
+
+
+
+    <dl id="news-list"> 
+<!--         <dt>2月24日</dt>
+        <dd><a href="https://www.kenkomayo.com/">3月のケーキについて</a></dd>
+        
+        <dt>2月16日</dt>
+        <dd>Amazon Pay・あと払い（ペイディ）決済導入のお知らせ</dd>
+        
+        <dt>2月15日</dt>
+        <dd>webサイトリニューアルのお知らせ</dd>
+        
+        <dt>1月15日</dt>
+        <dd>配送方法について</dd> -->
+    </dl>
+</div> <!-- /.news-box -->
+<a href="" class="btn"><span></span>MORE</a>
+ <!-- <a href="#">ニュース一覧</a> -->
+</div> <!-- /.news -->
+
+
+
+
+
+<div id="picup">
+    <h2>ピックアップ</h2>
+    
+    <div class="picup-box">
+    <ul>
+        <li><a href="../schedule/"><img src="img/picup1.jpg" alt="屋外エリア"></a>
+        <div class="txt">
+            <a href="../schedule/"><p>イルカショー</p></a>
+        </div>
+        </li>
+
+        <li><a href="../schedule/"><img src="img/picup2.jpg" alt="屋内エリア"></a>
+        <div class="txt">
+            <a href="../schedule/"><p>アシカショー</p></a>
+        </div>
+    </li>
+        
+    <li><a href="../animals/"><img src="img/picup3.jpg" alt="屋内エリア"></a>
+        <div class="txt">
+            <a href="../animals/"><p>サメ</p></a>
+        </div>
+    </li>
+
+
+
+    </ul>
+      
+    </div> <!-- /.content-box -->
+   
+    
+  
+ <a href="schedule/" class="btn"><span></span>MORE</a>
+</div> <!-- /.content-wrapper -->
+
+
+
+
+
+
+<div id="exhibition">
+    <h2>生き物たち</h2>
+    
+    <div class="exhibition-box">
+    <ul>
+        <li><a href="../animals/"><img src="img/okugai.jpg" alt="屋外エリア"></a>
+        <div class="txt">
+            <a href="../animals/"><p>屋外エリアへ</p></a>
+        </div>
+        
+        </li>
+        <li><a href="../animals/"><img src="img/okunai.jpg" alt="屋内エリア"></a>
+        <div class="txt">
+            <a href="../animals/"><p>屋内エリアへ</p></a>
+        </div>
+    </li>
+        
+    </ul>
+    
+    </div> <!-- /.content-box -->
+    
+    
+    <a href="../animals/" class="btn"><span></span>MORE</a>
+
+</div> <!-- /.content-wrapper -->
+    
+
+
+
+
+<!-- <div id="column">
+
+<h2>コラム</h2>
+
+<div class="column-box">
+<ul>
+    <li><a href=""><img src="img/animals-10.jpg" alt=""></a></li>
+    <li><a href="">テスト2</a><p>aaaaa</p></li>
+    <li><a href="">テスト3</a></li>
+    <li><a href="">テスト4</a></li>    
+    <li><a href="">テスト1</a></li>
+    <li><a href="">テスト2</a></li>
+    <li><a href="">テスト3</a></li>
+    <li><a href="">テスト4</a></li>    
+</ul>
+
+</div> --> <!-- /.column-box -->
+
+
+<a href="" class="btn"><span></span>MORE</a>
+
+</div> <!-- /.colum-wrapper -->
+
+
+
+
+<footer>
+
+    <ul class="sns">
+    <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+    <li><a href="#"><img src="img/instagram.svg" alt="instagram"></a></li>
+    <li><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
+    <li><a href="#"><img src="img/tiktok.svg" alt="tiktok.svg"></a></li>
+
+    </ul>
+
+    <div class="logo">
+      <a href=""><img src="img/footer-logo.svg" alt="ロゴ"></a>
+    </div>
+
+
+    <ul class="footer-nav">
+    <li><a href="question/">運営会社</a></li>
+    <li><a href="policy/">利用規約</a></li>
+    <li><a href="question/">よくある質問</a></li>
+    <li><a href="policy/">お問い合わせ</a></li>
+    <li><a href="policy/">プライバシーポリシー</a></li>
+    <li><a href="question/">動物取扱業に関する表示</a></li>
+    </ul>
+
+
+
+    <p><smail>&copy; <span id="this-year"></span> Kumatoshi AQUARIUM All rights reserved.</smail></p>
+
+</footer> 
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+
+
+
+
+<script>    
+
+//news.txtを呼び出す
+$('#news-list').load('news/news.txt');
+
+
+//ハンバーガーメニュー
+$("#g-nav-sp").hide();
+$('#ham-btn').on('click',function(){
+
+$('#g-nav-sp').slideToggle(200);
+
+});
+
+
+
+
+if (window.matchMedia('(max-width: 768px)').matches) {
+document.write('<script src="js/ham-btn-sp.js"><\/script>');
+} else {
+document.write('<script src="js/scroll-pc.js"><\/script>');
+}
+
+
+//アコーディオンをクリックした時の動作
+$('.title').on('click', function() {//タイトル要素をクリックしたら
+	var findElm = $(this).next(".box");//直後のアコーディオンを行うエリアを取得し
+	$(findElm).slideToggle();//アコーディオンの上下動作
+    
+	if($(this).hasClass('close')){//タイトル要素にクラス名closeがあれば
+		$(this).removeClass('close');//クラス名を除去し
+	}else{//それ以外は
+		$(this).addClass('close');//クラス名closeを付与
+	}
+});
+
+
+
+
+
+
+
+
+
+
+//bxslider関数を呼び出す
+$('.bxslider').bxSlider({
+mode: 'fade',
+auto: true,
+controls: false,
+pause: 8000,
+speed: 3500,
+pager: false, //下の黒い●をoff
+touchEnabled: false, //スマホ時のスライドを無効
+});
+
+//西暦を取得
+let fullYear =new Date().getFullYear();
+
+//２０２４年以降は2023-2024と表示させたい
+if(fullYear > 2023){
+$('#this-year').text('2023 - '+fullYear);
+}else{
+$('#this-year').text(fullYear);
+}
+
+
+		$(".has-child>a").on('click', function() {//has-childクラスがついたaタグをクリックしたら
+			let parentElem =  $(this).parent();// aタグから見た親要素のliを取得し
+			$(parentElem).toggleClass('active');//矢印方向を変えるためのクラス名を付与して
+			$(parentElem).children('ul').stop().slideToggle(500);//liの子要素のスライドを開閉させる※数字が大きくなるほどゆっくり開く
+			return false;//リンクの無効化
+		});
+
+
+
+
+
+
+
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
