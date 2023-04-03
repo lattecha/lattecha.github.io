@@ -2,9 +2,9 @@
         <dd><a href="floor/">サイトリニューアルのお知らせ</a></dd>
         
         <dt>3月15日</dt>
-        <dd><a href="animals/">新しい展示物がオープンしました。</dd>
+        <dd><a href="animals/">新しい展示物がオープンしました。</a></dd>
         
         <dt>1月20日</dt>
-        <dd><a href="animals/">新たな生き物がやってきました！</dd>
+        <dd><a href="animals/">新たな生き物がやってきました！</a></dd>
         
    

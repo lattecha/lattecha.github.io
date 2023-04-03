@@ -357,9 +357,9 @@ body {
 
     @include tb{
         
-        
+         
         h1{
-            width: 190px;
+            width: 190px;  
         }
         #g-nav{
             display: none;
@@ -375,9 +375,12 @@ body {
             left:0;
             z-index: 10;
             padding: 40px;
-            
+            overflow: auto;
 
             ul{
+                
+ 
+
             li{
                 border-bottom: 1px  dashed #292929;
                 
