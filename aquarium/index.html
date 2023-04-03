@@ -11,12 +11,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
     <link rel="shortcut icon" href="favicon.png" >
     <link rel="apple-touch-icon" href="touch-icon.png">
 </head>
 <body>
 <header id="header" class="DownMove">
-    <!-- <a href="サイトのURLを完成後入れる"></a> -->
+    
     
     
     <h1><a href="index.html"><img src="img/header-logo.svg" alt="Kumatoshi AQUARIUM"></a></h1>
@@ -25,8 +27,7 @@
 
 
    
-<!-- <li><a href="#"><img src="img/ticket.svg" alt=""><span>チケット</span></a></li> -->
-    
+
 
     <nav id="g-nav"> 
         <ul>
@@ -34,11 +35,11 @@
                 <li><a href="animals/">生き物たち</a></li>
                 <li><a href="schedule/">タイム<br>スケジュール</a></li>
                 <li><a href="floor/">施設案内</a></li>
-               <!--  <li><a href="#">料金案内</a></li> -->
+           
             <li><a href="access/">アクセス</a></li>
             <li class="has-child"><a href="#">Language</a><!--子要素を持つ li にはhas-childというクラス名をつける-->
                 <ul>
-                <li><a href="https://translate.google.com/translate?sl=ja&tl=zh-JA&u=lattecha.github.io/aquarium">Japanese</a></li>
+                <li><a href="index.html">Japanese</a></li>
                 <li><a href="https://translate.google.com/translate?sl=ja&tl=zh-CN&u=lattecha.github.io/aquarium">繁体中文</a></li>
 
                 
@@ -57,7 +58,7 @@
                 <li><a href="schedule/">タイム<br>スケジュール</a></li>
                 <li><a href="floor/">施設案内</a></li>
                 <li><a href="access/">アクセス</a></li>
-                 <!-- <li><a href="#">Language</a></li> -->
+                
                 
             </ul>
             
@@ -68,7 +69,7 @@
                 <section>
                 <h3 class="title">Language</h3>
                 <div class="box">
-                        <a href="https://translate.google.com/translate?sl=ja&tl=zh-JA&u=lattecha.github.io/aquarium">
+                        <a href="index.html">
                         <p>Japanese</p></a>
                         
                         <a href="https://translate.google.com/translate?sl=ja&tl=zh-CN&u=lattecha.github.io/aquarium">
@@ -102,16 +103,7 @@
 
 
 
-<!-- <nav id="g-nav">
-<ul>
-    <li><a href="#">生き物たち</a></li>
-    <li><a href="#">プログラム・ショー</a></li>
-    <li><a href="#">施設案内</a></li>
-    <li><a href="#">料金案内</a></li>
-    <li><a href="#">アクセス</a></li>
-</ul>
 
-</nav> --> <!-- /.g-nav -->
 <div class="bac">
 <div class="opening-closing">
 <p class="opcl">本日の営業時間</p>
@@ -133,21 +125,11 @@
 
 
     <dl id="news-list"> 
-<!--         <dt>2月24日</dt>
-        <dd><a href="https://www.kenkomayo.com/">3月のケーキについて</a></dd>
-        
-        <dt>2月16日</dt>
-        <dd>Amazon Pay・あと払い（ペイディ）決済導入のお知らせ</dd>
-        
-        <dt>2月15日</dt>
-        <dd>webサイトリニューアルのお知らせ</dd>
-        
-        <dt>1月15日</dt>
-        <dd>配送方法について</dd> -->
+
     </dl>
 </div> <!-- /.news-box -->
 <a href="" class="btn"><span></span>MORE</a>
- <!-- <a href="#">ニュース一覧</a> -->
+
 </div> <!-- /.news -->
 
 
@@ -180,12 +162,12 @@
 
 
     </ul>
-      
+      <a href="schedule/" class="btn"><span></span>スケジュールを確認</a>
     </div> <!-- /.content-box -->
    
     
   
- <a href="schedule/" class="btn"><span></span>MORE</a>
+ 
 </div> <!-- /.content-wrapper -->
 
 
@@ -200,7 +182,7 @@
     <ul>
         <li><a href="../animals/"><img src="img/okugai.jpg" alt="屋外エリア"></a>
         <div class="txt">
-            <a href="../animals/"><p>屋外エリアへ</p></a>
+            <a href="../animals/#jump"><p>屋外エリアへ</p></a>
         </div>
         
         </li>
@@ -208,14 +190,14 @@
         <div class="txt">
             <a href="../animals/"><p>屋内エリアへ</p></a>
         </div>
-    </li>
+        </li>
         
     </ul>
     
     </div> <!-- /.content-box -->
     
     
-    <a href="../animals/" class="btn"><span></span>MORE</a>
+    
 
 </div> <!-- /.content-wrapper -->
     
@@ -223,26 +205,23 @@
 
 
 
-<!-- <div id="column">
+<div id="column">
 
 <h2>コラム</h2>
 
 <div class="column-box">
-<ul>
-    <li><a href=""><img src="img/animals-10.jpg" alt=""></a></li>
-    <li><a href="">テスト2</a><p>aaaaa</p></li>
-    <li><a href="">テスト3</a></li>
-    <li><a href="">テスト4</a></li>    
-    <li><a href="">テスト1</a></li>
-    <li><a href="">テスト2</a></li>
-    <li><a href="">テスト3</a></li>
-    <li><a href="">テスト4</a></li>    
-</ul>
-
-</div> --> <!-- /.column-box -->
+    <ul class="responsive">
+        <li><a href="../column/index.html"><img src="img/animals-3.jpg" alt="チンアナゴの生態"><p>チンアナゴの生態に迫る!</p></a></li>
+        <li><a href="../column/index2.html"><img src="img/main5.jpg" alt="カワウソの生態"><p>カワウソの生態に迫る!</p></a></li>
+        <li><a href="../column/index.html"><img src="img/animals-2.jpg" alt="チンアナゴの生態"><p>チンアナゴの生態に迫ってみた</p></a></li>
+        <li><a href="../column/index2.html"><img src="img/main1.jpg" alt="カワウソの生態"><p>カワウソの生態に迫ってみた</p></a></li>
+    </ul>
 
 
-<a href="" class="btn"><span></span>MORE</a>
+</div>  <!-- /.column-box -->
+
+
+<a href="#" class="btn"><span></span>MORE</a>
 
 </div> <!-- /.colum-wrapper -->
 
@@ -284,7 +263,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script src="js/jquery.bxslider.js"></script>
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
 
@@ -325,11 +304,55 @@ $('.title').on('click', function() {//タイトル要素をクリックしたら
 });
 
 
+/* slick部分 */
+
+$('.responsive').slick({
+  /* dots: true, */
+  infinite: false,
+  
+  slidesToShow: 3,
+  slidesToScroll: 1, 
+  autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 800,
+    prevArrow: '<img src="img/left.svg" class="slide-arrow prev-arrow">',
+    nextArrow: '<img src="img/right.svg" class="slide-arrow next-arrow">', 
 
 
 
+  
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+ 
+       
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }  
+    
+
+  ]
 
 
+});
+ 
 
 
 
