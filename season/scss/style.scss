@@ -1,0 +1,182 @@
+@use"reset"; 
+
+//変数の登録
+$point_1:960px;
+$point_2:640px;
+
+
+@mixin tab{
+    @media (max-width:$point_1){
+        @content;
+    }
+}
+
+@mixin sp{
+    @media (max-width:$point_2){
+        @content;
+    }
+}
+
+@include sp(){
+
+
+}
+
+
+
+/* 共通部分 */
+h1{text-align: center;
+padding: 20px 0;
+font-family: 'Kaisei Opti', serif;
+font-size: 48px;
+}
+
+.g-nav{width: 100%;
+height: 50px;
+background-color: #1B813E;
+margin-bottom: 50px;}
+
+.g-nav>ul{display: flex;
+max-width: 960px;
+margin: 0 auto;
+}
+.g-nav li{width: 20%}
+
+.g-nav a{color:#fff;
+display: block;
+line-height: 50px;
+text-align: center;
+border-left:1px solid #fff;
+font-size: 16px;
+}
+
+.g-nav li:last-of-type>a{border-right:1px solid #fff;}
+
+.g-nav a:hover{background-color: #57966c;}
+
+@include tab(){
+
+
+
+    
+    .g-nav li:last-of-type>a{
+        border-right: 0;
+    }
+
+    .g-nav li:first-of-type>a{
+        border-left:0;
+    }
+
+    .g-nav a{
+        font-size: 14px;
+
+    }
+}
+
+
+
+
+footer{width: 100%;
+height: 100px;
+background-color: #1B813E;
+}
+footer>p{text-align: center;
+color: #fff;
+line-height: 100px;}
+
+@include tab(){
+    main{
+        padding: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+/* トップぺージ部分 */
+
+main{max-width: 960px;
+margin: 0 auto 100px;
+}
+
+.main-visual{margin-bottom: 80px;}
+
+
+.main-copy>h2{text-align:center;
+font-size:28px;
+margin-bottom: 20px;
+}
+
+.main-copy>p{max-width: 600px;
+margin: 0 auto;
+line-height:2;
+}
+
+
+/* 季節ページ部分 */
+
+main.season{display: flex;
+justify-content: space-between;}
+
+.photo{width: 50%;
+    margin-right: 40px;}
+
+.text{width: 40%;}
+
+.text>h2{text-align: center;
+margin-bottom: 20px;
+}
+
+.text>p{line-height: 1.7;}
+
+@include sp(){
+   main.season {display: block;
+   
+   .photo{
+    width: 100%;
+    margin-bottom: 50px;
+   }
+   .text{
+    width: 100%;
+   }
+
+
+
+   }
+}
+
+
+
+
+
+
+/* 春ページ部分 */
+
+.spring>.g-nav{background-color: #FB966E;}
+
+.spring>footer{background-color: #FB966E;}
+
+/* 夏ページ部分 */
+
+.summer>.g-nav{background-color: #66BAB7;}
+
+.summer>footer{background-color: #66BAB7;}
+
+/* 秋ページ部分 */
+
+.fall>.g-nav{background-color: #FFB11B;}
+
+.fall>footer{background-color: #FFB11B;}
+
+/* 冬ぺージ部分 */
+
+.winter>.g-nav{background-color: #91989F;}
+
+.winter>footer{background-color: #91989F;}
+
+.current>a{background-color: #57966c;}
+
+   
