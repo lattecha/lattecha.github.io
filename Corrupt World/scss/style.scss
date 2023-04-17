@@ -529,7 +529,9 @@ p{
     background-color: #222222dd;
   
 
-  
+    @include p1{ 
+      width: 100%;
+       }
 
     
   
