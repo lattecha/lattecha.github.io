@@ -17,6 +17,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -77,59 +78,138 @@
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/site-01_thumb.jpg" alt="..." />
-                        </div>
+                    
+                    <div class="btn-wrapper">
+                        <button class="cate-btn" data-filter="all">ALL</button>
+                        <button class="cate-btn" data-filter=".cate-1">HikakinTV</button>
+                        <button class="cate-btn" data-filter=".cate-2">はじめしゃちょー</button>
+                        <button class="cate-btn" data-filter=".cate-3">しゃろう</button>
+                
+                        <button class="cate-btn" data-filter=".cate-4">Webサイト</button>
+                
                     </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/site-04_thumb.jpg" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/site-05_thumb.jpg" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
-                        </div>
-                    </div>
+                
+                <div class="thumb-wrapper">
+                    <div class="mix cate-1">
+                        <a href="javascript:;" data-fancybox data-type="iframe" data-src="site-04/index.html">
+                        <h2>日本の四季</h2>
+                        <img src="assets/img/portfolio/site-01_thumb.jpg" alt="">
+                    </a>
+                    
+                    
+                    </div><!-- /.mix -->
+                    
+                </a>
+                
+                
+                
+                
+                <div class="mix cate-1">
+                    <a href="https://www.youtube.com/watch?v=FzrARCqYCxo" data-fancybox>
+                    <h2>まるお & もふこをお風呂に２匹とも入れてみたら超大変だったwww</h2>
+                    <img src="assets/img/portfolio/site-01_thumb.jpg" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                <div class="mix cate-1">
+                    <a href="">
+                    <h2>鬼から電話がかかってきた。。。</h2>
+                    <img src="assets/img/portfolio/site-01_thumb.jpg" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                
+                
+                <div class="mix cate-2">
+                    <a href="https://www.youtube.com/watch?v=Hd-QkWahUEo" data-fancybox>
+                    <h2>勢いで100人前オムライス作ってみたwwwwwww</h2>
+                    <img src="assets/img/portfolio/cabin.png" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                <div class="mix cate-2" >
+                    <a href="https://www.youtube.com/watch?v=nevjKqkBlbI" data-fancybox>
+                    <h2>【検証】アイスを全種類混ぜてもう1回凍らせたら何味のアイスになる？</h2>
+                    <img src="assets/img/portfolio/cabin.png" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                <div class="mix cate-2">
+                    <a href="https://www.youtube.com/watch?v=r4efIZaq-9k" data-fancybox>
+                    <h2>ヒカキンさんと100人前の超巨大ケーキを食べようとしたがこれだけでは終わらなかったwwwww。</h2>
+                    <img src="assets/img/portfolio/cabin.png" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                
+                <div class="mix cate-3">
+                    <a href="https://www.youtube.com/watch?v=xxpg9_2on3I" data-fancybox>
+                    <h2>【30分耐久フリーBGM】3_03 PM _ しゃろう【公式】。</h2>
+                    <img src="../assets/img/portfolio/site-04_thumb.jpg" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                <div class="mix cate-3">
+                    <a href="https://www.youtube.com/watch?v=Yb-rLsCpBvI" data-fancybox>
+                    <h2>【30分耐久フリーBGM】2_23 AM _ しゃろう【公式】</h2>
+                    <img src="../assets/img/portfolio/site-04_thumb.jpg" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                <div class="mix cate-3">
+                    <a href="https://www.youtube.com/watch?v=HWsOivtPz-o" data-fancybox>
+                    <h2>【30分耐久フリーBGM】superstar _ しゃろう【公式】</h2>
+                    <img src="../assets/img/portfolio/site-04_thumb.jpg" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                <div class="mix cate-4">
+                    <a href="javascript:;" data-fancybox data-type="iframe" data-src="site-03/index.html">
+                    <h2>furniture-store</h2>
+                    <img src="../assets/img/portfolio/" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                
+                <div class="mix cate-4">
+                    <a href="javascript:;" data-fancybox data-type="iframe" data-src="site-04/index.html">
+                    <h2>日本の四季</h2>
+                    <img src="assets/img/portfolio/site-01_thumb.jpg" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+                <div class="mix cate-4">
+                    <a href="javascript:;" data-fancybox data-type="iframe" data-src="site-05/index.html">
+                    <h2>edamame</h2>
+                    <img src="img/site-03.jpg" alt="">
+                </a>
+                
+                
+                </div><!-- /.mix -->
+                
+
+
+
                 </div>
             </div>
         </section>
@@ -533,18 +613,22 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/mixitup.js"></script>
         <script>
             
                 //bxslider関数を呼び出す
 $('.bxslider').bxSlider({
 
 });
-        
-        
-           
-        
-        </script>
+</script>
+
+
+<script>
+var mixer = mixitup('.thumb-wrapper');/* 全部のサムネイルが入ってる要素を指定 */
+
+
+</script>
 
         
     </body>
