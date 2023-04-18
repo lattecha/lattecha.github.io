@@ -15,7 +15,7 @@
     </header>
 
     <main>
-    <div class="mainvisual">
+    <div class="main-visual">
         <ul class="bxslider">
             <li> <img src="../assets/img/portfolio/cabin.png" alt=""></li>
             <li><img src="../assets/img/portfolio/cabin.png" alt=""></li>
@@ -48,7 +48,9 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem eius nobis officiis culpa perspiciatis fugit odio amet, maxime, ab explicabo, minus rem saepe qui minima earum deserunt natus sint.</p>
     </div>
 
-    <p class="to-page"> <a href="http://latte.starfree.jp/season/" target="_blank">実際のサイトへ</a></p>
+    <p class="to-page"> <a href="http://latte.starfree.jp/season/" target="_blank">実際のサイトへ  </a></p>
+
+    <input class="close" type="button" value="閉じる" onClick="closeMe()" />
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="../js/jquery.bxslider.js"></script>
@@ -61,6 +63,13 @@
 
     });
 
+
+
 </script>
+<script type="text/javascript">
+    function closeMe(){
+    parent.$.fancybox.close();
+    }
+    </script>
 </body>
 </html>
