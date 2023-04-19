@@ -183,6 +183,7 @@ background-color: var(--color_4);
 }
 .col-1>h2{
 margin-bottom: 20px;
+text-align: center;
 }
 .col-1>p{
 line-height: 1.7;
