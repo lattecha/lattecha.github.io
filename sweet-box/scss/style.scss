@@ -459,6 +459,7 @@ left: 0;
 #shop{
 padding: 100px 20px;
 text-align: center;
+
 h2{
 font-size: 30px;
 margin-bottom: 20px;
@@ -469,16 +470,19 @@ margin-bottom: 100px;
 }
 
 .shop-wrapper{
+overflow-y:hidden;
+max-width: 1000px;
 display: flex;
-overflow: auto;
+overflow-x: scroll;
 scroll-snap-type: x mandatory;
-margin: 0 0 100px 10%;
+margin: 0 auto 100px ;
 gap:40px;
 .shop-box{
 flex: 0 0 30%;
 background-color: $color_2;
 padding: 10px;
 margin-bottom: 30px;
+
 }
 @include p1{
 margin: 0 0 100px 20px;
