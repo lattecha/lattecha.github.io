@@ -469,7 +469,7 @@ margin-bottom: 100px;
 }
 
 .shop-wrapper{
-height: 450px;
+
 display: flex;
 overflow: auto;
 scroll-snap-type: x mandatory;
@@ -480,6 +480,7 @@ flex: 0 0 30%;
 background-color: $color_2;
 padding: 10px;
 margin-bottom: 30px;
+height: 390px;
 }
 @include p1{
 margin: 0 0 100px 20px;
