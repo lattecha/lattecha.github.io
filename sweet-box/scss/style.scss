@@ -459,6 +459,8 @@ left: 0;
 #shop{
 padding: 100px 20px;
 text-align: center;
+max-width: 1200px;
+margin: 0 auto;
 h2{
 font-size: 30px;
 margin-bottom: 20px;
@@ -480,7 +482,7 @@ flex: 0 0 30%;
 background-color: $color_2;
 padding: 10px;
 margin-bottom: 30px;
-height: 390px;
+
 }
 @include p1{
 margin: 0 0 100px 20px;
