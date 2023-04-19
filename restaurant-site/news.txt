@@ -1,14 +1,15 @@
-<dt>2月03日</dt>
-<dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse obcaecati culpa odit facere.</dd>
+<dt>6月01日</dt>
+<dd>出丸館始めました！</dd>
 
-<dt>2月02日</dt>
-<dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse obcaecati culpa odit facere.</dd>
+<dt>5月18日</dt>
+<dd>新メニュー準備中！</dd>
+
+<dt>4月25日</dt>
+<dd>おいしいパスタの作り方をご紹介！</dd>
+
+<dt>3月08日</dt>
+<dd>シェフにインタビュー！</dd>
 
 <dt>2月01日</dt>
-<dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse obcaecati culpa odit facere.</dd>
-
-<dt>1月31日</dt>
-<dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse obcaecati culpa odit facere.</dd>
-
-<dt>1月30日</dt>
-<dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse obcaecati culpa odit facere.</dd>
+<dd>公式サイトopen！
+</dd>
