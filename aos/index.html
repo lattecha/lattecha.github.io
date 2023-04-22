@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOSの実装</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/aos.css">
+</head>
+<body>
+<header>
+<h1>Animate On Scroll Library</h1>
+</header>
+<div class="gallery">
+
+    <div class="photo-box" data-aos="fade-left">
+    <img src="img/01.jpg" alt="">
+    <div class="caption" data-aos="fade-left" data-aos-delay="200">
+    <h2>Lorem, ipsum dolor.</h2>
+    <p class="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, inventore.</p>
+    <p class="more"><a href="#">詳しくはこちら</a></p>
+    </div><!-- /.caption -->
+    </div><!-- /.photo-box -->
+
+        <div class="photo-box" data-aos="zoom-in-right">
+    <img src="img/02.jpg" alt="">
+    <div class="caption" data-aos="zoom-in-right" data-aos-delay="200">
+    <h2>Lorem, ipsum dolor.</h2>
+    <p class="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, inventore.</p>
+    <p class="more"><a href="#">詳しくはこちら</a></p>
+    </div><!-- /.caption -->
+    </div><!-- /.photo-box -->
+
+        <div class="photo-box" data-aos="flip-right">
+    <img src="img/03.jpg" alt="">
+    <div class="caption" data-aos="flip-right" data-aos-delay="200">
+    <h2>Lorem, ipsum dolor.</h2>
+    <p class="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, inventore.</p>
+    <p class="more"><a href="#">詳しくはこちら</a></p>
+    </div><!-- /.caption -->
+    </div><!-- /.photo-box -->
+
+
+</div> <!-- /.gallery -->
+<div class="content-wrapper">
+    
+    <div class="content-box" data-aos="fade-up">
+        <img src="img/sam.jpg" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, consectetur.</p>
+    </div><!-- /.content-box -->
+
+    <div class="content-box" data-aos="fade-up" data-aos-delay="200">
+        <img src="img/sam.jpg" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, consectetur.</p>
+    </div><!-- /.content-box -->
+
+    <div class="content-box" data-aos="fade-up" data-aos-delay="400">
+        <img src="img/sam.jpg" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, consectetur.</p>
+    </div><!-- /.content-box -->
+
+    <div class="content-box" data-aos="fade-up" data-aos-delay="600">
+        <img src="img/sam.jpg" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, consectetur.</p>
+    </div><!-- /.content-box -->
+
+
+
+
+
+
+
+</div><!-- /.content-wrapper -->
+
+
+<p id="to-top"><a href="#"><img src="img/large_arrow_up_fill.svg" alt=""></a></p>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script src="js/aos.js"></script>
+
+<script>
+  AOS.init({
+duration:600,
+
+  });
+
+$(function(){
+//#to-top>aをclickしたら、ページの一番上の要素にanimateで戻る
+$('#to-top>a').on('click',function(){
+$('html,body').animate({scrollTop:0},300);
+return false;
+});
+
+
+//windowをscrollしたら
+$(window).scroll(function(){
+
+let y = $(this).scrollTop();
+console.log(y)
+//500px以上をスクロールしたら、#to-topをfadeinさせる
+if(y > 500){
+$('#to-top').fadeIn();
+}else{
+$('#to-top').fadeOut();
+}
+
+});
+
+
+
+});
+
+
+
+</script>
+
+</body>
+</html>
