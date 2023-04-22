@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>作品05</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>作品04</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/jquery.bxslider.css">
 </head>
 <body class="pages">
     <header>
-        <h1>edamame</h1>
+        <h1>season</h1>
     <p>ここにプロジェクト概要が入ります</p>
     </header>
 
     <main>
-    <div class="mainvisual">
-        <img src="../img/site-03.jpg" alt="">
+    <div class="main-visual">
+        <ul class="bxslider">
+            <li> <img src="../assets/img/portfolio/site-01-mok.jpg" alt=""></li>
+            <li><img src="../assets/img/portfolio/site-01.jpg" alt=""></li>
+            <li><img src="../assets/img/portfolio/game.png" alt=""></li>
+            <li><img src="../assets/img/portfolio/cake.png" alt=""></li>
+            <li><img src="../assets/img/portfolio/circus.png" alt=""></li>
+
+
+        </ul>
+
     </div>
     <div class="txt-box">
         <h2>クライアントの要望</h2>
@@ -38,34 +48,28 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem eius nobis officiis culpa perspiciatis fugit odio amet, maxime, ab explicabo, minus rem saepe qui minima earum deserunt natus sint.</p>
     </div>
 
+    <p class="to-page"> <a href="http://latte.starfree.jp/season/" target="_blank">実際のサイトへ  </a></p>
 
-
-    <div class="txt-box">
-        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBJbGeE" data-preview="true" data-user="latcha" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/latcha/pen/qBJbGeE">
-  グラデーション img ver</a> by latecha (<a href="https://codepen.io/latcha">@latcha</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-    </div>
-
-
-<div class="txt-box">
-
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="mdzVYZO" data-preview="true" data-user="latcha" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/latcha/pen/mdzVYZO">
-  グラデーション1</a> by latecha (<a href="https://codepen.io/latcha">@latcha</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
-</div>
-
-
-
-
-    <p class="to-page"> <a href="http://latte.starfree.jp/edamame/" target="_blank">実際のサイトを見る</a> </p>
+    <input class="close" type="button" value="閉じる" onClick="closeMe()" />
 </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="../js/jquery.bxslider.js"></script>
+
+
+<script>
+    $(function(){
+        $('.bxslider').bxSlider();
+
+
+    });
+
+
+
+</script>
+<script type="text/javascript">
+    function closeMe(){
+    parent.$.fancybox.close();
+    }
+    </script>
 </body>
 </html>
