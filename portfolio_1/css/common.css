@@ -10,7 +10,11 @@ h1{
 /* メディアクエリ */
 .main-visual{
     margin: 0 auto;
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 80%;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
 
 }
 
@@ -75,6 +79,7 @@ img{width: 100%;}
     margin-bottom: 10px;
     font-size: 24px;
     text-align: center;
+<<<<<<< HEAD
 }
 
 /* 文字の調整 */
@@ -86,7 +91,16 @@ img{width: 100%;}
     max-width: 300px;
     margin: 0 auto;
 
+=======
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
 }
+
+/* 文字の調整 */
+.cate-1{
+    text-align: center;
+}
+
+
 
 
    /*  作品ページ部分 */
@@ -109,6 +123,7 @@ img{width: 100%;}
    }
 
    .txt-wrapper{
+<<<<<<< HEAD
     max-width: 960px;
     display: flex;
    flex-wrap: wrap;
@@ -118,17 +133,23 @@ img{width: 100%;}
 
 
    .box-wrapper{
+=======
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
     max-width: 1280px;
     display: flex;
    flex-wrap: wrap;
     margin: 0 auto;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
    }
 
 
 
 /* 制作期間 */
 
+<<<<<<< HEAD
    /* レスポンシブmw500 */
 
   /*  1-1-2用レイアウト */
@@ -276,19 +297,62 @@ img{width: 100%;}
 
    .txt-box>h2::after{
     
+=======
+
+
+   /* レスポンシブmw500 */
+   .txt-box{
+   width: 40%;
+    margin: 0 auto 100px;
+    background-color: #daf2ce;
+    padding: 50px;
+    position: relative;
+   } 
+
+   .txt-box>h2{
+    
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-left: 10px;
+   
+ 
+  
+    
+   }
+   .txt-box>p{
+    /* padding: 0  30px; */
+    /* text-indent: 5px; */
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+    
+    
+   }
+
+
+   .txt-box>h2::after{
+    /* display: block; */
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
     content:"";
     background: url(../assets/img/portfolio/clock-solid.svg)no-repeat center center /contain;
     width: 40px;
     height: 30px;
     position: absolute;
+<<<<<<< HEAD
     top: 38px;
     left: 22px;
+=======
+    top: 50px;
+    left: 15px;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
    }
 
 
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -336,6 +400,49 @@ img{width: 100%;}
         position: absolute;
         top: 38px;
         left: 22px;
+=======
+/* 制作環境 */
+
+
+   .production-box{
+    width: 40%;
+    margin: 0 auto 100px;
+    background-color: #daf2ce;
+    padding: 50px;
+    position: relative;
+    }
+
+
+    .production-box>h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #000;
+        padding-left: 10px;
+       
+        
+       }
+       .production-box>p{
+        /* padding: 0  30px; */
+        /* text-indent: 5px; */
+        font-size: 20px;
+        text-align: left;
+        line-height: 1.5;
+        
+        
+        
+       }
+
+
+       .production-box>h2::after{
+        /* display: block; */
+        content:"";
+        background: url(../assets/img/portfolio/desktop-solid.svg)no-repeat center center /contain;
+        width: 40px;
+        height: 30px;
+        position: absolute;
+        top: 50px;
+        left: 15px;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
        }
 
 
@@ -343,6 +450,7 @@ img{width: 100%;}
 
 /* ポイント部分 */
 
+<<<<<<< HEAD
 
 
 /* レスポンシブmax-width720 */
@@ -353,10 +461,20 @@ img{width: 100%;}
     position: relative;
     border: 1px solid #000;
     background-color: #fafafa;
+=======
+/* レスポンシブmax-width720 */
+   .point-box{
+    width: 40%;
+    margin: 0 auto 100px;
+    background-color: #daf2ce;
+    padding: 50px;
+    position: relative;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
     
    } 
 
    .point-box>h2{
+<<<<<<< HEAD
     margin-bottom: 20px;
     border-bottom: 2px solid #000;
     padding-left: 40px;
@@ -371,18 +489,41 @@ img{width: 100%;}
     text-align: left;
     line-height: 1.7;
     
+=======
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-left: 10px;
+    
+   }
+   .point-box>p{
+    /* padding: 0  30px; */
+    /* text-indent: 5px; */
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
     
     }
 
     .point-box>h2::after{
+<<<<<<< HEAD
 
+=======
+        /* display: block; */
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
         content:"";
         background: url(../assets/img/portfolio/file-lines-regular.svg)no-repeat center center /contain;
         width: 40px;
         height: 30px;
         position: absolute;
+<<<<<<< HEAD
         top: 38px;
         left: 22px;
+=======
+        top: 50px;
+        left: 20px;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
        }
 
 
@@ -391,6 +532,7 @@ img{width: 100%;}
 
 /* レスポンシブmax-width720 */
    .Reflection-box{
+<<<<<<< HEAD
     width: 45%;
     margin: 0 auto 150px;
     background-color: #daf2ce;
@@ -398,11 +540,19 @@ img{width: 100%;}
     position: relative;
     border: 1px solid #000;
     background-color: #fafafa;
+=======
+    width: 40%;
+    margin: 0 auto 100px;
+    background-color: #daf2ce;
+    padding: 50px;
+    position: relative;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
     
    } 
 
 
    .Reflection-box>h2{
+<<<<<<< HEAD
     margin-bottom: 20px;
     border-bottom: 2px solid #000;
     padding-left: 40px;
@@ -418,19 +568,42 @@ img{width: 100%;}
     font-size: 20px;
     text-align: left;
     line-height: 1.7;
+=======
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-left: 10px;
+    
+   }
+   .Reflection-box>p{
+    /* padding: 0  30px; */
+    /* text-indent: 5px; */
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
     
     
    }
 
     .Reflection-box>h2::after{
+<<<<<<< HEAD
 
+=======
+        /* display: block; */
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
         content:"";
         background: url(../assets/img/portfolio/flag-solid.svg)no-repeat center center /contain;
         width: 40px;
         height: 30px;
         position: absolute;
+<<<<<<< HEAD
         top: 38px;
         left: 22px;
+=======
+        top: 50px;
+        left: 20px;
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
        }
 
 
@@ -497,6 +670,7 @@ img{width: 100%;}
 
 
 
+<<<<<<< HEAD
 /* バナーサイト */
 
 .banner>h1{
@@ -828,6 +1002,8 @@ margin-right: 10px;
 
 
 /* webサイト */
+=======
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
 
 /* 575px以下のレイアウト */
 @media(max-width:575px){
@@ -839,6 +1015,7 @@ margin-right: 10px;
 
 
 
+<<<<<<< HEAD
 }
 
 
@@ -867,4 +1044,6 @@ margin-right: 10px;
 
 
 
+=======
+>>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
 }
