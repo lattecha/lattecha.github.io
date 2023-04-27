@@ -10,11 +10,7 @@ h1{
 /* メディアクエリ */
 .main-visual{
     margin: 0 auto;
-<<<<<<< HEAD
     width: 50%;
-=======
-    width: 80%;
->>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
 
 }
 
@@ -79,7 +75,6 @@ img{width: 100%;}
     margin-bottom: 10px;
     font-size: 24px;
     text-align: center;
-<<<<<<< HEAD
 }
 
 /* 文字の調整 */
@@ -91,8 +86,6 @@ img{width: 100%;}
     max-width: 300px;
     margin: 0 auto;
 
-=======
->>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
 }
 
 /* 文字の調整 */
@@ -123,7 +116,6 @@ img{width: 100%;}
    }
 
    .txt-wrapper{
-<<<<<<< HEAD
     max-width: 960px;
     display: flex;
    flex-wrap: wrap;
@@ -133,16 +125,11 @@ img{width: 100%;}
 
 
    .box-wrapper{
-=======
->>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
     max-width: 1280px;
     display: flex;
    flex-wrap: wrap;
     margin: 0 auto;
-<<<<<<< HEAD
     
-=======
->>>>>>> 65e26048c3892143fb2716a808d1f8281e765291
    }
 
 
