@@ -125,6 +125,14 @@ img{width: 100%;}
     
    }
 
+   .main-visual>p{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #17622b;
+    padding: 10px;
+    
+   }
 
 
 /* 制作期間 */
@@ -353,7 +361,7 @@ img{width: 100%;}
     position: relative;
     border: 1px solid #000;
     background-color: #fafafa;
-    
+    width: fit-content;
    } 
 
    .point-box>h2{
@@ -372,6 +380,11 @@ img{width: 100%;}
     line-height: 1.7;
     
     
+    }
+
+    .point-box span{
+        color: red;
+        font-size: 14px;
     }
 
     .point-box>h2::after{
@@ -398,7 +411,7 @@ img{width: 100%;}
     position: relative;
     border: 1px solid #000;
     background-color: #fafafa;
-    
+    width: fit-content;
    } 
 
 
