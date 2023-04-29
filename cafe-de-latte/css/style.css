@@ -60,7 +60,7 @@ top: 0;
 right: 0;
 width: calc(100% - 300px);
 height: 80px;
-background-color: rgb(251, 229, 157);
+background-color: #fbe59d;
 }
 
 .g-nav>ul{
@@ -105,9 +105,14 @@ margin: 0 auto;
 
 /* .g-nav li:hover>a{background-color: rgb(126, 136, 40); */
 
+    .g-nav li:hover{
+        background-color: #d3b069;
+    } 
 
-
-
+    .g-nav li{
+        border-left: 1px solid #000;
+    } 
+  
 .news{
 display: flex;
 position: absolute;
