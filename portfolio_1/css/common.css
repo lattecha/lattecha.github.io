@@ -881,3 +881,39 @@ margin-right: 10px;
 
 
 }
+
+
+
+
+/* about部分 */
+
+.js-cd-timeline{
+    background-color: #a25768;
+}
+
+.cd-timeline__block{
+    font-family: sans-serif!important;
+    background-color: #d3c5c5;
+    border-radius: 20px;
+    font-size:18px;
+    
+    
+}
+
+.color-contrast-medium{
+    color: #2f2f2f;
+    font-size: 16px;
+}
+
+.cd-timeline__date{
+    color:#000;
+    font-size: 20px;
+}
+
+.cd-timeline__content{
+    border-radius: 20px;
+}
+
+.cd-timeline__img--picture{
+    background-color: #8080af;
+}
