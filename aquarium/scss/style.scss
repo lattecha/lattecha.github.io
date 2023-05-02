@@ -1395,12 +1395,10 @@ h2{
         background: #0a8fad;
         color: #fff;
         border-radius: 100vh;
-        position: relative;
+        
         transition: 0.5s;
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 550px;
+        
+        
 
 
     }
@@ -1971,12 +1969,12 @@ footer {
 
         &::before{
         width: 100%;
-        height: 300px;
-        display: block;
+        height: 500px;
+        
         content: "";
        background: url(../img/wavegreen.svg) no-repeat center center/cover ;
        position: absolute;
-       top:-290px;
+       top:-490px;
        left: 0;
        right: 0;
        bottom: 0;
