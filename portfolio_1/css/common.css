@@ -479,7 +479,7 @@ img{width: 100%;}
    }
 
     .to-page>a::after{
-    display: inline-block;
+    /* display: inline-block; */
     content:"";
     height: 30px;
     width: 44px;
@@ -916,4 +916,93 @@ margin-right: 10px;
 
 .cd-timeline__img--picture{
     background-color: #8080af;
+}
+
+
+.p-txt{
+    color: #000;
+    text-decoration: underline;
+}
+
+.point-box>h3{
+    margin: 50px 0 10px;
+    font-size: 28px;
+}
+
+.point-box>h4{
+    margin: 100px 0 10px;
+    font-size: 28px;
+     
+}
+
+
+.point-box img{
+    max-width: 500px;
+    margin: 0 auto 100px;
+}
+
+.photo-box-2img{
+    max-width:500px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.photo-box-2{
+    text-align: center;
+    
+}
+
+
+.big-txt{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.small-txt{
+    font-size: 14px;
+}
+
+
+
+
+.youken-page{
+    width: 30%;
+    margin: 0 auto 150px ;
+    background-color: #3d67a9;
+    border-radius: 10px;
+   
+
+    }
+
+
+
+
+.youken-page>a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #e1e1e1;
+    font-size: 24px;
+    text-decoration: underline;
+    text-underline-offset:3px;
+    
+   }
+
+   .youken-page>a:hover{
+    background-color: #4372bd;
+    border-radius: 10px;
+   }
+
+    .youken-page>a::after{
+    
+    content:"";
+    height: 30px;
+    width: 44px;
+    position: relative;
+    right: 210px;
+    top: 15px;
 }
