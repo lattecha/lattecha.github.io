@@ -116,6 +116,11 @@ img{width: 100%;}
     
    }
 
+  
+
+
+
+
 
    .box-wrapper{
     max-width: 1280px;
@@ -378,6 +383,9 @@ img{width: 100%;}
     font-size: 20px;
     text-align: left;
     line-height: 1.7;
+
+
+
     
     
     }
@@ -446,7 +454,9 @@ img{width: 100%;}
         left: 22px;
        }
 
-
+.Reflection-box>img{
+    width: 500px;
+}
 
 
    /* ボタン */
@@ -843,22 +853,13 @@ margin-right: 10px;
 /* webサイト */
 
 /* 575px以下のレイアウト */
-@media(max-width:575px){
- .txt-box{
-    background-color: #e05353;
- }
 
 
 
 
 
-}
 
 
-
-
-
-/* バナーサイト */
 @media(max-width:767px){
     .banner-wrapper{
         display: block;
@@ -875,14 +876,62 @@ margin-right: 10px;
     .banner-box span{
         display: block;
     }
+    .production-box{
+        width: 600px;
+     }
+     .txt-box{
+        width: 600px;
+     }
+     .point-box{
+        width: 500px;
+    }
+    
+    .Reflection-box{
+        width: 500px;
+    }
+    .production-box-1-2-1{
+        width: 500px;
+    }
 
+    .Reflection-box{
+        width: 500px;
+    }
+    .production-box-1-2-1{
+        width: 400px;
+    }
 
+    .txt-box-1-2-1{
+        width: 400px;
+    }
+}
+
+@media(max-width:575px){
+ .txt-wrapper{
+    display: block;
+ }
+ .production-box{
+    width: 300px;
+ }
+ .txt-box{
+    width: 300px;
+ }
+ .point-box{
+    width: 300px;
+}
+
+.Reflection-box{
+    width: 300px;
+}
+.production-box-1-2-1{
+    width: 300px;
+}
+.txt-box-1-2-1{
+    width: 300px;
+}
 
 
 
 }
-
-
 
 
 /* about部分 */

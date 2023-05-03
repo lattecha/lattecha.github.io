@@ -91,8 +91,8 @@
             最初は横並びにしていただけだったのでうまく動いていたのだが、今の形にした所カーテンがズレてしまい、うまく隠れてくれませんでした。<br>
             どうやら今回の場合、imgとafterにもaspect-rationを入れないといけなかったらしく、入れた結果うまく動いてくれました。<br>
             <br>
-            <br>
-            <a href="../assets/img/portfolio/site-04-2-1.png" data-lightbox="photo"><img src="../assets/img/portfolio/site-04-2-1.png" alt=""></a></p>
+            <br></p>
+            <img src="../assets/img/portfolio/site-04-2-1.png" alt="">
     </div>
 </div>
 
@@ -111,6 +111,13 @@
 
 
     });
+    lightbox.option({
+
+'positionFromTop': 1900,
+'maxWidth':1500,
+'maxHeigh':1500,
+'resizeDuration':600
+});
 
 
 
