@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>作品04</title>
+    <title>作品03</title>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/jquery.bxslider.css">
+    <link rel="stylesheet" href="../css/lightbox.css">
 </head>
 <body class="pages">
     <header>
-        <h1>season</h1>
+        <h1>【WP】CG-BIM</h1>
 
     </header>
 
     
     <div class="main-visual">
         <ul class="bxslider">
-            <li><img src="../assets/img/portfolio/site-01mok.webp" alt=""></li>
-            <li><img src="../assets/img/portfolio/site-01.webp" alt=""></li>
-            <li><img src="../assets/img/portfolio/site-04.webp" alt=""></li>
-            <li><img src="../assets/img/portfolio/site-05.webp" alt=""></li>
-            <li><img src="../assets/img/portfolio/site-04_thumb.webp" alt=""></li>
+            <li><img src="../assets/img/portfolio/site-03-pc.webp" alt=""></li>
+            
+            
+
 
 
         </ul>
-
+        <!-- <p>レスポンシブ対応</p> -->
     </div>
 <main>
 
@@ -35,10 +35,7 @@
     <div class="txt-box">
         <h2>制作期間</h2>
         <p>
-           全体期間:1ヵ月半<br>
-           ワイヤー:18日<br>
-           カンプ:10日<br>
-           コーディング:16日
+           全体期間:3日+
 
         </p>
     </div>
@@ -46,10 +43,19 @@
     <div class="production-box">
         <h2>制作ツール</h2>
         <p>
-            pc <br>
-            bxaa <br>
-            pc <br>
-            lorem50
+            ・WordPress<br>
+            ・PHP <br>
+            ・SCSS <br>
+            ・Googleフォント(en)Krona One', sans-serif <br>
+              (jp)Zen Antique', serif<br>
+            ・スムーススクロール<br>
+            ・ajax(お問い合わせ) <br>
+            ・Email Notifications for Google Forms(お問い合わせ) <br>
+            ・yubinbango <br>
+            
+            
+            
+
 
 
         </p>
@@ -60,29 +66,42 @@
     
     <div class="point-box">
         <h2>ポイント</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In saepe quaerat corporis numquam dolore labore eaque molestias totam atque. Molestiae qui ratione a dolores, maiores iure. Voluptatum eligendi doloribus enim eaque quidem recusandae, esse inventore cupiditate distinctio. Quis soluta voluptatem voluptate? Sunt qui hic atque doloribus earum, quidem nostrum quasi! </p>
+        <p>
+            建築CGパース制作会社のコーポレートサイトです。<br>
+            HTMLで制作したものをWordPress化しました。
+
+            ドロップダウンメニューを入れました。自作サイトの水族館にもありますが、圧倒的にこっちのがいいと思った。(作りやすいし) <br>
+            タイトルには-webkit-background-clip: text(background-clip:text;)を使い、文字のカラーをグラデーションにしています。<br>
+            資料請求とお問い合わせがあり、クリックするとラジオボタンが選ばれた状態でページが移動するようになっています。<br>
+            資料請求にある興味のある建築技術は、3つまでしかチェックできないようになっています。<br>
+            お問い合わせ後は、サンクスページに移動します。また、Googleのアドオンを使用して自動返信機能を設定しています。
+            </p>
     </div>
 
 
 
 
-    <div class="Reflection-box">
-        <h2>反省点</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In saepe quaerat corporis numquam dolore labore eaque molestias totam atque. Molestiae qui ratione a dolores, maiores iure. Voluptatum eligendi doloribus enim eaque quidem recusandae, esse inventore cupiditate distinctio. Quis soluta voluptatem voluptate? Sunt qui hic atque doloribus earum, quidem nostrum quasi! </p>
-    </div>
+<!--     <div class="Reflection-box">
+        <h2>気づいた点</h2>
+        <p></p>
+    </div> -->
 </div>
 
-    <p class="to-page"><a href="http://latte.starfree.jp/season/"target="_blank">実際のサイトへ</a></p>
+    <p class="to-page"><a href="#"target="_blank">実際のサイトへ</a></p>
 
     <input class="close" type="button" value="閉じる" onClick="closeMe()" />
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="../js/jquery.bxslider.js"></script>
+<script src="../js/lightbox.min.js"></script>
 
 
 <script>
     $(function(){
-        $('.bxslider').bxSlider();
+        $('.bxslider').bxSlider({
+
+
+});
 
 
     });
