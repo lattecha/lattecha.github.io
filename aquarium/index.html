@@ -37,7 +37,7 @@
                 <li><a href="floor/">施設案内</a></li>
            
             <li><a href="access/">アクセス</a></li>
-            <li class="has-child"><a href="#">Language</a><!--子要素を持つ li にはhas-childというクラス名をつける-->
+            <li class="has-child"><a href="#">Language</a>
                 <ul>
                 <li><a href="index.html">Japanese</a></li>
                 <li><a href="https://translate.google.com/translate?sl=ja&tl=zh-CN&u=lattecha.github.io/aquarium">繁体中文</a></li>
@@ -65,7 +65,7 @@
 
             <ul class="accordion-area">
 
-                <li><!--li ~ /li までが一つのアコーディオン-->
+                <li>
                 <section>
                 <h3 class="title">Language</h3>
                 <div class="box">
@@ -267,7 +267,7 @@
 
 <script>    
 
-//news.txtを呼び出す
+
 $('#news-list').load('news/news.txt');
 
 
@@ -290,14 +290,14 @@ document.write('<script src="js/scroll-pc.js"><\/script>');
 
 
 //アコーディオンをクリックした時の動作
-$('.title').on('click', function() {//タイトル要素をクリックしたら
-	var findElm = $(this).next(".box");//直後のアコーディオンを行うエリアを取得し
-	$(findElm).slideToggle();//アコーディオンの上下動作
+$('.title').on('click', function() {
+	var findElm = $(this).next(".box");
+	$(findElm).slideToggle();
     
-	if($(this).hasClass('close')){//タイトル要素にクラス名closeがあれば
-		$(this).removeClass('close');//クラス名を除去し
-	}else{//それ以外は
-		$(this).addClass('close');//クラス名closeを付与
+	if($(this).hasClass('close')){
+		$(this).removeClass('close');
+	}else{
+		$(this).addClass('close');
 	}
 });
 
@@ -305,7 +305,7 @@ $('.title').on('click', function() {//タイトル要素をクリックしたら
 /* slick部分 */
 
 $('.responsive').slick({
-  /* dots: true, */
+
   
   
   slidesToShow: 3,
@@ -361,14 +361,14 @@ auto: true,
 controls: false,
 pause: 8000,
 speed: 3500,
-pager: false, //下の黒い●をoff
-touchEnabled: false, //スマホ時のスライドを無効
+pager: false, 
+touchEnabled: false, 
 });
 
 //西暦を取得
 let fullYear =new Date().getFullYear();
 
-//２０２４年以降は2023-2024と表示させたい
+
 if(fullYear > 2023){
 $('#this-year').text('2023 - '+fullYear);
 }else{
@@ -376,11 +376,11 @@ $('#this-year').text(fullYear);
 }
 
 
-		$(".has-child>a").on('click', function() {//has-childクラスがついたaタグをクリックしたら
-			let parentElem =  $(this).parent();// aタグから見た親要素のliを取得し
-			$(parentElem).toggleClass('active');//矢印方向を変えるためのクラス名を付与して
-			$(parentElem).children('ul').stop().slideToggle(500);//liの子要素のスライドを開閉させる※数字が大きくなるほどゆっくり開く
-			return false;//リンクの無効化
+		$(".has-child>a").on('click', function() {
+			let parentElem =  $(this).parent();
+			$(parentElem).toggleClass('active');
+			$(parentElem).children('ul').stop().slideToggle(500);
+			return false;
 		});
 
 

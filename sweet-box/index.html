@@ -229,13 +229,13 @@ slideWidth: 400,
 
 //スクロールイベントの設定
 $(window).on('scroll resize',function(){
-let winH = $(this).outerHeight();//画面の高さ
+let winH = $(this).outerHeight();
 
-let scroll = $(this).scrollTop(); //自身のスクロール量
+let scroll = $(this).scrollTop(); 
 
 $('#item-photo>li').each(function(){
-let = objH = $('#item-photo>li').outerHeight();//boxの高さ
-let objTop = $(this).offset().top; //要素の画面の上からの位置
+let = objH = $('#item-photo>li').outerHeight();
+let objTop = $(this).offset().top; 
 console.log(objH);
 if(scroll > objTop - winH +objH){
 $(this).addClass('move');

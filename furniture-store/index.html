@@ -178,13 +178,13 @@ expiress:1
 
 //スクロールイベント
 $(window).scroll(function(){
-//headerのouterheightを取得
+
 let h = $('header').outerHeight();
 
 //自身のスクロール量
 let y = $(this).scrollTop();
 console.log(y);
-//変数h以上スクロールしたら、#g-navに.scrollをaddClassする
+
 if(y > h){
 $('#g-nav').addClass('scroll');
 }else{
@@ -194,7 +194,7 @@ $('#g-nav').removeClass('scroll');
 
 //svgデータの呼び出し
 $.ajax({
-//呼び出したいデータのパス
+
 url:'img/main-logo.svg'
 })
 	
