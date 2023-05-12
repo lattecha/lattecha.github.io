@@ -4,61 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>作品04</title>
+    <title>作品05</title>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/jquery.bxslider.css">
+    <link rel="stylesheet" href="../css/lightbox.css">
 </head>
 <body class="pages">
     <header>
-        <h1>season</h1>
-    <p>ここにプロジェクト概要が入ります</p>
+        <h1>Furniture-Store</h1>
+
     </header>
 
-    <main>
+    
     <div class="main-visual">
         <ul class="bxslider">
-            <li> <img src="../assets/img/portfolio/site-01-mok.jpg" alt=""></li>
-            <li><img src="../assets/img/portfolio/site-01.jpg" alt=""></li>
-            <li><img src="../assets/img/portfolio/game.png" alt=""></li>
-            <li><img src="../assets/img/portfolio/cake.png" alt=""></li>
-            <li><img src="../assets/img/portfolio/circus.png" alt=""></li>
+            <li><img src="../assets/img/portfolio/site-05.webp" alt=""></li>
+            <li><img src="../assets/img/portfolio/site-05-sp.webp" alt=""></li>
+            
+
 
 
         </ul>
-
+        <p>レスポンシブ対応</p>
     </div>
+<main>
+
+
+   
+<div class="txt-wrapper">
     <div class="txt-box">
-        <h2>クライアントの要望</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem eius nobis officiis culpa perspiciatis fugit odio amet, maxime, ab explicabo, minus rem saepe qui minima earum deserunt natus sint.</p>
+        <h2>制作期間</h2>
+        <p>
+           全体期間:5日
+
+        </p>
     </div>
 
-    <div class="txt-box">
-    <h2>システム要件</h2>
-    <ul>
+    <div class="production-box">
+        <h2>制作ツール</h2>
+        <p>
+            Googleフォント(h1)<br>
+            jquery.cookie.js(ローディングアニメーション)<br>
+            ajax(ローディングアニメーション) <br>
+            スクロールイベント <br>
+            
+            
 
-        <li>リスト1</li>
-        <li>リスト2</li>
-        <li>リスト3</li>
-        <li>リスト4</li>
-    </ul>
 
+
+        </p>
     </div>
-    <div class="txt-box">
-        <h2>デザインコンセプト</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem eius nobis officiis culpa perspiciatis fugit odio amet, maxime, ab explicabo, minus rem saepe qui minima earum deserunt natus sint.</p>
+
+
+
+    
+    <div class="point-box">
+        <h2>ポイント</h2>
+        <p>
+            jquery.cookie.jsを使い、初回訪問の人にだけサイトを開いた時にローディングアニメーションが表示されるようにしました。<br>
+            CSSでアニメーションさせています。<br>
+            navはスクロール量を取得し、位置が固定されるようになっています。<br>
+            プライバシーポリシーと利用規約ページもあり、中身はフリー素材のものを使用。<br>
+            ハンバーガーメニューは自作<br>
+            ブレイクポイントを、641px、768px、901px、960pxで設定<br>
+            901px未満でハンバーガーメニューが、767px未満でレイアウト調整をし、コンテンツが縦に並ぶようにしています。<br>
+            <br>
+            地味なポイントとしては、CDNが使えなかった場合に備え自サーバーのjqueryファイルを読み込んでいたり、
+            descriptionを入れていたりする。<br>
+            (北欧風の家具やインテリアを中心に、様々な物を取り扱っているECサイトです。あなた好みの家具が必ず見つかります。)
+            
+   
+
+           
+            
+
+            
+            </p>
     </div>
 
-    <p class="to-page"> <a href="http://latte.starfree.jp/season/" target="_blank">実際のサイトへ  </a></p>
+
+
+
+    <div class="Reflection-box">
+        <h2>気づいた点</h2>
+        <p>初めて、クッキーとローディングアニメーションを使ったサイト。ローディングアニメーションは早くても遅くてもダメだと思った。<br> 遅すぎるとイラっとしそうだし、早過ぎたらなにかわからない。<br>
+        そしてせっかく作ったものを没にするというのはクるものがある。webに限らず没になって悔しい思いをする人はたくさんいるんだろうなぁ</p>
+    </div>
+</div>
+
+    <p class="to-page"><a href="https://lattecha.github.io/furniture-store/"target="_blank">実際のサイトへ</a></p>
 
     <input class="close" type="button" value="閉じる" onClick="closeMe()" />
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="../js/jquery.bxslider.js"></script>
+<script src="../js/lightbox.min.js"></script>
 
 
 <script>
     $(function(){
-        $('.bxslider').bxSlider();
+        $('.bxslider').bxSlider({
+
+
+});
 
 
     });

@@ -7,10 +7,10 @@ h1{
     margin: 50px 0;
 }
 
-
+/* メディアクエリ */
 .main-visual{
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
 
 }
 
@@ -82,13 +82,20 @@ img{width: 100%;}
     text-align: center;
 }
 
+.project{
+    max-width: 300px;
+    margin: 0 auto;
 
+}
 
 
    /*  作品ページ部分 */
     .pages>header{
         text-align: center;
     }
+
+
+
 
    .pages>main{
     max-width: 1280px;
@@ -102,105 +109,246 @@ img{width: 100%;}
    }
 
    .txt-wrapper{
+    max-width: 960px;
+    display: flex;
+   flex-wrap: wrap;
+    margin: 0 auto;
+    
+   }
+
+  
+
+
+
+
+
+   .box-wrapper{
     max-width: 1280px;
     display: flex;
    flex-wrap: wrap;
     margin: 0 auto;
+    
    }
 
+   .main-visual>p{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #17622b;
+    padding: 10px;
+    
+   }
 
 
 /* 制作期間 */
 
-
-
    /* レスポンシブmw500 */
-   .txt-box{
-   width: 40%;
-    margin: 0 auto 100px;
-    background-color: #daf2ce;
-    padding: 50px;
+
+  /*  1-1-2用レイアウト */
+   .txt-box-1-2-1{
+   width: 80%;
+    margin: 0 auto 150px;
+   background-color: #fafafa;
+    padding: 30px 20px;
     position: relative;
+    border: 1px solid #000;
+    
    } 
 
-   .txt-box>h2{
+.txt-box-1-2-1>img{
+    height: 10%;
     
-    font-size: 24px;
+}
+   
+
+   .txt-box-1-2-1>h2{
     margin-bottom: 20px;
     border-bottom: 2px solid #000;
-    padding-left: 10px;
-   
- 
-  
-    
+    padding-left: 40px;
+    font-size: 32px;
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    max-width: 600px;
    }
-   .txt-box>p{
-    /* padding: 0  30px; */
-    /* text-indent: 5px; */
-    font-size: 20px;
+
+   .txt-box-1-2-1>p{
+    padding: 0 30px;
     text-align: left;
-    line-height: 1.5;
-    
+    line-height: 1.7;
+    font-size: 20px;
     
    }
 
+   .photo-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    gap: 30px;
+   }
 
-   .txt-box>h2::after{
-    /* display: block; */
+
+   .txt-box-1-2-1>p>span{
+    font-weight: 1000;
+   }
+
+   .txt-box-1-2-1>h2::after{
+
     content:"";
     background: url(../assets/img/portfolio/clock-solid.svg)no-repeat center center /contain;
     width: 40px;
     height: 30px;
     position: absolute;
-    top: 50px;
-    left: 15px;
+    top: 38px;
+    left: 21px;
+   }
+
+/* 1-1-2用レイアウト */
+.production-box-1-2-1{
+    max-width: 500px;
+    margin: 0 auto 100px ;
+  
+  
+    padding: 30px 20px;
+    position: relative;
+    border: 1px solid #000;
+    background-color: #fafafa;
+    
+}
+
+.production-box-1-2-1>h2{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-left: 40px;
+    font-size: 32px;
+    background-color: #c9e7c9;
+    border-radius: 10px;
+    max-width: 600px;
+   
+    
+   }
+   .production-box-1-2-1>p{
+    padding: 0 30px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+
+    
+    
+   }
+
+
+   .production-box-1-2-1>h2::after{
+
+    content:"";
+    background: url(../assets/img/portfolio/gear-solid.svg)no-repeat center center /contain;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 38px;
+    left: 22px;
+   }
+
+/* ここまで 1-1-2用レイアウト */
+
+
+
+
+
+
+/* ここから2-2 */
+
+   .txt-box{
+    width: 45%;
+    margin: 100px auto 150px;
+    padding: 30px 20px;
+    position: relative;
+    border: 1px solid #000;
+    background-color: #fafafa;
+    
+   } 
+
+   .txt-box>h2{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-left: 40px;
+    font-size: 32px;
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    
+   }
+   .txt-box>p{
+
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 0 15px;
+    
+    }
+
+
+   .txt-box>h2::after{
+    
+    content:"";
+    background: url(../assets/img/portfolio/clock-solid.svg)no-repeat center center /contain;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 38px;
+    left: 22px;
    }
 
 
 
 
 
-/* 制作環境 */
+
+
+
+
+
+
+
 
 
    .production-box{
-    width: 40%;
-    margin: 0 auto 100px;
-    background-color: #daf2ce;
-    padding: 50px;
+    width: 45%;
+    margin: 100px auto 150px;
+    padding: 30px 20px ;
     position: relative;
+    border: 1px solid #000;
+    background-color: #fafafa;
+    
+   } 
+
+   .production-box>h2{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-left: 40px;
+    font-size: 32px;
+    background-color: #c9e7c9;
+    border-radius: 10px;
+    
+   }
+   .production-box>p{
+
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 0 15px;
+    
     }
 
 
-    .production-box>h2{
-        font-size: 24px;
-        margin-bottom: 20px;
-        border-bottom: 2px solid #000;
-        padding-left: 10px;
-       
-        
-       }
-       .production-box>p{
-        /* padding: 0  30px; */
-        /* text-indent: 5px; */
-        font-size: 20px;
-        text-align: left;
-        line-height: 1.5;
-        
-        
-        
-       }
-
-
        .production-box>h2::after{
-        /* display: block; */
+
         content:"";
-        background: url(../assets/img/portfolio/desktop-solid.svg)no-repeat center center /contain;
+        background: url(../assets/img/portfolio/gear-solid.svg)no-repeat center center /contain;
         width: 40px;
         height: 30px;
         position: absolute;
-        top: 50px;
-        left: 15px;
+        top: 38px;
+        left: 22px;
        }
 
 
@@ -208,41 +356,54 @@ img{width: 100%;}
 
 /* ポイント部分 */
 
+
+
 /* レスポンシブmax-width720 */
    .point-box{
-    width: 40%;
-    margin: 0 auto 100px;
-    background-color: #daf2ce;
-    padding: 50px;
+    width: 45%;
+    margin: 0 auto 150px;
+    padding: 30px 20px;
     position: relative;
-    
+    border: 1px solid #000;
+    background-color: #fafafa;
+    width: fit-content;
    } 
 
    .point-box>h2{
-    font-size: 24px;
     margin-bottom: 20px;
     border-bottom: 2px solid #000;
-    padding-left: 10px;
+    padding-left: 40px;
+    font-size: 32px;
+    background-color: #e6d8d8;
+    border-radius: 10px;
     
    }
    .point-box>p{
-    /* padding: 0  30px; */
-    /* text-indent: 5px; */
+
     font-size: 20px;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.7;
+
+
+
+    
     
     }
 
+    .point-box span{
+        color: red;
+        font-size: 14px;
+    }
+
     .point-box>h2::after{
-        /* display: block; */
+
         content:"";
         background: url(../assets/img/portfolio/file-lines-regular.svg)no-repeat center center /contain;
         width: 40px;
         height: 30px;
         position: absolute;
-        top: 50px;
-        left: 20px;
+        top: 38px;
+        left: 22px;
        }
 
 
@@ -251,44 +412,51 @@ img{width: 100%;}
 
 /* レスポンシブmax-width720 */
    .Reflection-box{
-    width: 40%;
-    margin: 0 auto 100px;
+    width: 45%;
+    margin: 0 auto 150px;
     background-color: #daf2ce;
-    padding: 50px;
+    padding: 30px 20px;
     position: relative;
-    
+    border: 1px solid #000;
+    background-color: #fafafa;
+    width: fit-content;
    } 
 
 
    .Reflection-box>h2{
-    font-size: 24px;
     margin-bottom: 20px;
     border-bottom: 2px solid #000;
-    padding-left: 10px;
+    padding-left: 40px;
+    font-size: 32px;
+    background-color: #c9eaeb;
+    border-radius: 10px;
+
+    
     
    }
    .Reflection-box>p{
-    /* padding: 0  30px; */
-    /* text-indent: 5px; */
+
     font-size: 20px;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.7;
     
     
    }
 
     .Reflection-box>h2::after{
-        /* display: block; */
+
         content:"";
         background: url(../assets/img/portfolio/flag-solid.svg)no-repeat center center /contain;
         width: 40px;
         height: 30px;
         position: absolute;
-        top: 50px;
-        left: 20px;
+        top: 38px;
+        left: 22px;
        }
 
-
+.Reflection-box>img{
+    width: 500px;
+}
 
 
    /* ボタン */
@@ -321,7 +489,7 @@ img{width: 100%;}
    }
 
     .to-page>a::after{
-    display: inline-block;
+    /* display: inline-block; */
     content:"";
     height: 30px;
     width: 44px;
@@ -352,15 +520,652 @@ img{width: 100%;}
 
 
 
+/* バナーサイト */
+
+.banner>h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+.banner-wrapper{
+    display: flex;
+    max-width: 800px;
+    margin: 50px auto 150px;
+    justify-content: space-between;
+    font-size: 21px;
+    padding: 30px;
+}
+
+.banner-box{
+    width: 48%;
+}
+.banner-box>h2{
+    margin-bottom: 20px;
+}
+
+.banner-box>p{
+    height: 250px;
+    
+    
+}
+
+.banner-pc{margin-bottom: 200px;}
+
+
+
+.banner-sp{
+    width: 320px;
+    margin-bottom: 200px;
+
+}
+
+.banner-box>dl{
+    margin: 20px 0;
+
+
+
+}
+.banner-box dt{
+   font-size: 18px;
+   font-weight: bold;
+}
+.banner-box dd{
+  margin: 20px 0;
+
+}
+
+/* カラー情報 */
+.banner-box span{
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.banner-box span::before{
+display: inline-block;
+content:"";
+width: 40px;
+height: 40px;
+margin-right: 10px;
+}
+
+/* USENのバナー */
+.usen>.banner-box span:first-of-type::before{
+    background-color: #43c625;
+
+}
+
+.usen>.banner-box span:nth-of-type(2)::before{
+    background-color: #ffff00;
+}
+
+.usen>.banner-box span:nth-of-type(3)::before{
+    background-color: #ff7301;
+}
+
+
+
+/* 水族館のバナーPC */
+
+.aquarium>.banner-box span:first-of-type::before{
+    background-color: #17A8BB;
+
+}
+
+.aquarium>.banner-box span:nth-of-type(2)::before{
+    background-color: #0A8FAD;
+}
+
+.aquarium>.banner-box span:nth-of-type(3)::before{
+    background-color: #2C6CB5;
+}
+
+
+/* 水族館のバナーSP */
+.aquarium>.sp span:first-of-type::before{
+    background-color: #17A8BB;
+}
+
+
+.aquarium>.sp span:nth-of-type(2)::before{
+    background-color: #185CE0;
+}
+
+
+.aquarium>.sp span:nth-of-type(3)::before{
+    background-color: #000000;
+}
+
+
+
+/* 既存サイト風のバナーPC */
+
+.ham>.banner-box span:first-of-type::before{
+    background-color: #2e2e2e;
+
+}
+
+.ham>.banner-box span:nth-of-type(2)::before{
+    background-color: #e39902;
+}
+
+.ham>.banner-box span:nth-of-type(3)::before{
+    background-color: #9f4e03;
+}
+
+
+
+/* 既存サイト風のバナーPC */
+
+.ham>.sp span:first-of-type::before{
+    background-color: #2e2e2e;
+
+}
+
+.ham>.sp span:nth-of-type(2)::before{
+    background-color: #ffeab0;
+}
+
+.ham>.sp span:nth-of-type(3)::before{
+    background-color: #ff0000;
+}
+
+
+/* ローソンバナーPC */
+
+.lowson>.banner-box span:first-of-type::before{
+    background-color: #1b3600;
+
+}
+
+.lowson>.banner-box span:nth-of-type(2)::before{
+    background-color: #5b7502;
+}
+
+.lowson>.banner-box span:nth-of-type(3)::before{
+    background-color: #ffffff;
+}
+
+
+
+
+/* かぎこうバナーPC */
+
+.kagikou>.banner-box span:first-of-type::before{
+    background-color: #018c25;
+
+}
+
+.kagikou>.banner-box span:nth-of-type(2)::before{
+    background-color: #ff7f00;
+}
+
+
+/* 夏期講習バナーPC */
+
+.kakikousyu>.banner-box span:first-of-type::before{
+    background-color: #4cddbe;
+
+}
+
+.kakikousyu>.banner-box span:nth-of-type(2)::before{
+    background-color: #be2d4c;
+}
+
+
+
+/* 新春福袋バナーPC */
+
+.hukubukuro>.banner-box span:first-of-type::before{
+    background-color: #ff7bac;
+
+}
+
+.hukubukuro>.banner-box span:nth-of-type(2)::before{
+    background-color: #fa0200;
+}
+
+.hukubukuro>.banner-box span:nth-of-type(3)::before{
+    background-color: #95fdfd;
+}
+
+
+
+
+/* 新春初売りバナーPC */
+
+
+.hatsuuri-1>.banner-box span:first-of-type::before{
+    background-color: #fe0000;
+
+}
+
+.hatsuuri-1>.banner-box span:nth-of-type(2)::before{
+    background-color: #0caec7;
+}
+
+.hatsuuri-1>.banner-box span:nth-of-type(3)::before{
+    background-color: #38bfc5;
+}
+
+
+
+
+/* 新春初売りバナー2PC */
+
+
+.hatsuuri-2>.banner-box span:first-of-type::before{
+    background-color: #009345;
+
+}
+
+.hatsuuri-2>.banner-box span:nth-of-type(2)::before{
+    background-color: #ffff01;
+}
+
+.hatsuuri-2>.banner-box span:nth-of-type(3)::before{
+    background-color: #38bfc5;
+}
+
+
+/* 京都観光バナー2PC */
+
+
+.kyoto>.banner-box span:first-of-type::before{
+    background-color: #96121d;
+
+}
+
+.kyoto>.banner-box span:nth-of-type(2)::before{
+    background-color: #b780be;
+}
+
+.kyoto>.banner-box span:nth-of-type(3)::before{
+    background-color: #f4adac;
+}
+
+
+
+
+
+
+/* summerバナー2PC */
+
+
+.summer>.banner-box span:first-of-type::before{
+    background-color: #96121d;
+
+}
+
+.summer>.banner-box span:nth-of-type(2)::before{
+    background-color: #b780be;
+}
+
+.summer>.banner-box span:nth-of-type(3)::before{
+    background-color: #f4adac;
+}
+
+
+
+
+/* コードペン部分 */
+
+.code-wrapper{
+   /*  display: flex; */
+    max-width: 1200px;
+    margin: 50px auto 150px;
+    justify-content: space-between;
+}
+
+.code-pc{
+    margin-bottom: 30px;
+}
+
+
+
+.code-body>h1{
+    text-align: center;
+}
+
+
+.code-pen>h2{
+    margin-bottom: 10px;
+}
+
+.code-pen-point>h3{
+    font-size: 28px;
+    margin: 50px 0 10px ;
+}
+.code-pen-point>p{
+    font-size: 20px;
+    padding: 0 20px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* スキル部分 */
+
+.skill-wrapper{
+    display: flex; 
+   flex-wrap: wrap;
+   gap: 30px;
+    margin: 20px auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    padding: 20px;
+ 
+    
+}
+
+.skill{
+    
+    width: 48%;
+    padding: 20px;
+    background-color: #ebebeb;
+    border-radius: 30px;
+    margin: 30px 0 10px ;    
+    box-shadow: 0 1px 4px 0 #c6c6c672;
+    
+
+   
+}
+h3{
+    font-size: 32px;
+}
+
+.skill-txt{
+    text-align-last: left;
+    padding-left: 20px;
+}
+
+.star-color{
+    color: #fb842a;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+
+
+.skill img{
+    width: 20%;
+    padding-right: 20px;
+}
+
+
+.skill-2{
+    background-color: #d5a0a0;
+    width: 48%;
+   
+
+   
+}
+
+.skill-3{
+    background-color: #d5a0a0;
+    width: 48%;
+
+
+   
+}
+
+.skill-4{
+    background-color: #d5a0a0;
+    width: 48%;
+ 
+
+   
+}
+
+
+
+
+
+
+
+/* about部分 */
+
+.js-cd-timeline{
+    background-color: #a25768;
+}
+
+.cd-timeline__block{
+    font-family: sans-serif!important;
+    background-color: #d3c5c5;
+    border-radius: 20px;
+    font-size:18px;
+    
+    
+}
+
+.color-contrast-medium{
+    color: #2f2f2f;
+    font-size: 18px;
+}
+
+.cd-timeline__date{
+    color:#000;
+    font-size: 20px;
+}
+
+.cd-timeline__content{
+    border-radius: 20px;
+}
+
+.cd-timeline__img--picture{
+    background-color: #8080af;
+}
+
+
+.p-txt{
+    color: #000;
+    text-decoration: underline;
+}
+
+.point-box>h3{
+    margin: 50px 0 10px;
+    font-size: 28px;
+}
+
+.point-box>h4{
+    margin: 100px 0 10px;
+    font-size: 28px;
+     
+}
+
+
+.point-box img{
+    max-width: 500px;
+    margin: 0 auto 100px;
+}
+
+.photo-box-2img{
+    max-width:500px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.photo-box-2{
+    text-align: center;
+    
+}
+
+
+.big-txt{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.small-txt{
+    font-size: 14px;
+}
+
+
+
+
+.youken-page{
+    width: 30%;
+    margin: 0 auto 150px ;
+    background-color: #3d67a9;
+    border-radius: 10px;
+   
+
+    }
+
+
+
+
+.youken-page>a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #e1e1e1;
+    font-size: 24px;
+    text-decoration: underline;
+    text-underline-offset:3px;
+    
+   }
+
+   .youken-page>a:hover{
+    background-color: #4372bd;
+    border-radius: 10px;
+   }
+
+    .youken-page>a::after{
+    
+    content:"";
+    height: 30px;
+    width: 44px;
+    position: relative;
+    right: 210px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+    .banner-wrapper{
+        display: block;
+    }
+
+    .banner-box{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+    .banner-box>p{
+        margin: 0 auto 400px;
+    }
+    .banner-box span{
+        display: block;
+    }
+    .production-box{
+        width: 600px;
+     }
+     .txt-box{
+        width: 600px;
+     }
+     .point-box{
+        width: 500px;
+    }
+    
+    .Reflection-box{
+        width: 500px;
+    }
+    .production-box-1-2-1{
+        width: 500px;
+    }
+
+    .Reflection-box{
+        width: 500px;
+    }
+    .production-box-1-2-1{
+        width: 400px;
+    }
+
+    .txt-box-1-2-1{
+        width: 400px;
+    }
+
+    .mix{width: calc((100% - 80px) / 2);}
+
+
+.skill-wrapper{
+   gap: 20px;
+   padding: 20px;
+}
+
+
+}
+
 
 /* 575px以下のレイアウト */
+
 @media(max-width:575px){
- .txt-box{
-    background-color: #e05353;
+ .txt-wrapper{
+    display: block;
  }
+ .production-box{
+    width: 300px;
+ }
+ .txt-box{
+    width: 300px;
+ }
+ .point-box{
+    width: 300px;
+}
+
+.Reflection-box{
+    width: 300px;
+}
+.production-box-1-2-1{
+    width: 300px;
+}
+.txt-box-1-2-1{
+    width: 300px;
+}
+
+.mix{width: calc((100% - 30px) / 1);}
 
 
-
+.skill-wrapper{
+    display: block;
+   
+    
+ }
+.skill{
+    margin: 0 auto 50px; 
+    width:80%;
+    
+}
 
 
 }

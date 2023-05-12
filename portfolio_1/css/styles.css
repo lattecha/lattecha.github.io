@@ -8127,7 +8127,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #a25768;
 }
 
 .bg-secondary {
@@ -11046,3 +11046,6 @@ html {
 }
 
 
+
+.text-uppercase{font-family: 'Noto Serif Hebrew', serif;
+  font-family: 'Pathway Extreme', sans-serif;}
