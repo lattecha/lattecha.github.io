@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品10</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/jquery.bxslider.css">
+    <link rel="stylesheet" href="../css/lightbox.css">
+</head>
+<body class="pages">
+    <header>
+        <h1>カフェサイト</h1>
+
+    </header>
+
+    
+    <div class="main-visual">
+        <ul class="bxslider">
+            <li><img src="../assets/img/portfolio/site-03-1-pc.webp" alt=""></li>
+
+            <li><img src="../assets/img/portfolio/site-03-2-pc.webp" alt=""></li>
+
+            <li><img src="../assets/img/portfolio/site-03-3-sp.webp" alt=""></li>
+
+
+
+            
+            
+            
+
+
+
+        </ul>
+        <p>レスポンシブ対応</p>
+    </div>
+<main>
+
+
+   
+<div class="txt-wrapper">
+    <div class="txt-box">
+        <h2>制作期間</h2>
+        <p>
+           制作:4日<br>
+           レスポンシブ:2日<br>
+           WP化:1日<br>
+
+        </p>
+    </div>
+
+    <div class="production-box">
+        <h2>制作ツール</h2>
+        <p>
+            ・WordPress<br>
+            ・PHP <br>
+            ・SCSS <br>
+            ・Googleフォント(en)Krona One', sans-serif <br>
+              (jp)Zen Antique', serif<br>
+            ・スムーススクロール<br>
+            ・ajax(お問い合わせ) <br>
+            ・Email Notifications for Google Forms(お問い合わせ) <br>
+            ・yubinbango <br>
+            ・hamburgers <br>
+            ・All-in-One WP Migration(WP)
+            ・All In One WP Security(WP)
+            
+            
+            
+
+
+
+        </p>
+    </div>
+
+
+
+    
+    <div class="point-box">
+        <h2>ポイント</h2>
+        <p>
+            建築CGパース制作会社のコーポレートサイトです。<br>
+            HTMLで制作したものをWordPress化しました。<br>
+
+            ドロップダウンメニューをCSSのみで作りました。自作の水族館サイトにもありますが、圧倒的にこっちのがいいと思った。(作りやすい) <br>
+            hederは-webkit-backdrop-filterを使いぼかしを入れています。<br>
+            h2には-webkit-background-clipを使い、文字のカラーをグラデーションにしています。<br>
+            footerでは資料請求とお問い合わせに分け、クリックするとラジオボタンが選ばれた状態でページが移動します。<br>
+            資料請求にある興味のある建築技術は、3つまでしかチェックできないようにしています。<br>
+            お問い合わせ後は、サンクスページに移動します。また、Googleのアドオンを使用して自動返信機能を設定しています。
+            <br>
+            <br>
+            768pxでナビがハンバーガーメニューに変化し、トップページからお問い合わせまですべてのコンテンツがTab/SP用に調整されます。<br>
+            WPのプライグインのAll-in-One WP Migrationを使い本番環境へデプロイしました。<br>
+            また、All In One WP Securityを使いセキュリティ対策を施しました。<br>
+            
+
+            </p>
+    </div>
+
+
+
+
+<!--     <div class="Reflection-box">
+        <h2>気づいた点</h2>
+        <p></p>
+    </div> -->
+</div>
+
+    <p class="to-page"><a href="http://latte.starfree.jp/corporate-site/"target="_blank">実際のサイトへ</a></p>
+
+    <input class="close" type="button" value="閉じる" onClick="closeMe()" />
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="../js/jquery.bxslider.js"></script>
+<script src="../js/lightbox.min.js"></script>
+
+
+<script>
+    $(function(){
+        $('.bxslider').bxSlider({
+
+
+});
+
+
+    });
+
+
+
+</script>
+<script type="text/javascript">
+    function closeMe(){
+    parent.$.fancybox.close();
+    }
+    </script>
+</body>
+</html>
