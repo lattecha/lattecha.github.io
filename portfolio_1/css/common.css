@@ -1059,7 +1059,10 @@ h3{
 }
 
 
-
+.link_txt>a{
+    color: red;
+    border-bottom: 1px solid #000;
+}
 
 
 
