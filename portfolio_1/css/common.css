@@ -938,12 +938,13 @@ h3{
 /* about部分 */
 
 .js-cd-timeline{
-    background-color: #a25768;
+    background-color: #f1f1f1;
+    border-radius: 20px;
 }
 
 .cd-timeline__block{
     font-family: sans-serif!important;
-    background-color: #d3c5c5;
+    background-color: #dfc9a3;
     border-radius: 20px;
     font-size:18px;
     
