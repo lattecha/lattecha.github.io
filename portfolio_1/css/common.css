@@ -939,12 +939,12 @@ h3{
 
 .js-cd-timeline{
     background-color: #f1f1f1;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .cd-timeline__block{
     font-family: sans-serif!important;
-    background-color: #dfc9a3;
+    /* background-color: #dfc9a3; */
     border-radius: 20px;
     font-size:18px;
     
@@ -962,7 +962,7 @@ h3{
 }
 
 .cd-timeline__content{
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .cd-timeline__img--picture{
