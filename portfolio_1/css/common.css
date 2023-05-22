@@ -1070,10 +1070,9 @@ h3{
 
 
 
+/* 790px以下のレイアウト */
 
-
-
-@media(max-width:767px){
+@media(max-width:790px){
     .banner-wrapper{
         display: block;
     }
@@ -1170,4 +1169,63 @@ h3{
 }
 
 
+}
+
+
+/* プロフィール部分 */
+
+#about{
+    
+    background-color: #fff/* #f4f4f4 */;
+}
+
+.profile-wrapper{
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: 10px double #313131;
+    padding: 10px;
+    background-color: #f7f7f7;
+    
+   
+   
+
+}
+
+.profile-title{
+    color: #000;
+    
+}
+.profile-title>h2{
+    font-size: 21px;
+   margin-left: 50px;
+}
+
+.profile-txt{
+    color: #000;
+    font-size: 20px;
+    margin: 0 auto;
+    
+}
+
+.profile-box{
+    margin: 20px auto ;
+    color: #000;
+    font-size: 21px;
+}
+
+.profile-box dl{
+
+        display: flex;
+        flex-wrap: wrap;
+    
+}
+.profile-box dt{
+    width: 40%;
+    
+}
+
+.profile-box dd{
+    width: 60%;
 }
