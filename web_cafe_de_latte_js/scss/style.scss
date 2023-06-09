@@ -40,7 +40,7 @@ body{
 }
 
 header{
-    width: 45%;
+    max-width: 45%;
     aspect-ratio: 1 / 0.5;
     padding: 40px 120px ;
     background-color: #f0f0f0;
@@ -74,7 +74,7 @@ section>h2{
     height: 200px;
     position: fixed;
     right:610px;
-    bottom: 310px;
+    bottom: 600px;
     animation: circle 50s linear infinite;
 }
 @keyframes circle{
@@ -378,7 +378,7 @@ transition: 0.5s linear;
     header{
         top: 120px;
         left: 10px;
-        width: 50%;
+        max-width: 50%;
         /* padding: 20px; */
         
 
